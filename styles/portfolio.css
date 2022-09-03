@@ -1,8 +1,10 @@
 h1 {
   background-color: yellow;
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 p {
   display: flex;
   font-family: "Playfair Display", serif;
+  font-weight: normal;
 }
