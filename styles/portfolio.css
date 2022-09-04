@@ -17,10 +17,14 @@ h6 {
 }
 h1 {
   font-size: 96px !important;
+  line-height: 1.5;
 }
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -48,4 +52,34 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.project-overview {
+  padding: 120px 60px 0;
+}
+.project-titles {
+  font-size: 64px;
+}
+.btn-project-links {
+  border-radius: 4px;
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+@media (max-width: 960px) {
+  .project-overview {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 45px !important;
+    line-height: 2;
+  }
+  .project-titles {
+    font-size: 45px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
