@@ -45,6 +45,20 @@ p {
   font-size: 24px;
   line-height: 2;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px !important;
+  line-height: 1.5;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
 .btn-primary {
   background: var(--primary-color) !important;
   border-radius: 4px;
@@ -67,6 +81,9 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.headshot {
+  border-radius: 30px;
+}
 @media (max-width: 960px) {
   .project-overview {
     padding: 0;
@@ -81,5 +98,9 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
