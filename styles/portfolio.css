@@ -45,6 +45,32 @@ p {
   font-size: 24px;
   line-height: 2;
 }
+.logo {
+  max-height: 80px;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 10px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
 .content-container {
   padding: 160px 20px;
 }
