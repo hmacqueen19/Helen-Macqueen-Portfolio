@@ -5,7 +5,11 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Helen Macqueen</title>
+      <meta
+        name="description"
+        content="Helen Macqueen background information"
+      />
+      <title>Helen Macqueen about information</title>
       <link rel="stylesheet" href="styles/portfolio.css" />
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -33,11 +37,12 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img
-          src="images/logo.png"
-          alt="Helen Macqueen, Front End Developer"
-          class="logo d-none d-md-block"
-        />
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo.png"
+            alt="Helen Macqueen, Front End Developer"
+            class="logo d-none d-md-block"
+        /></a>
         <img
           src="images/logo-small.png"
           alt="Helen Macqueen, Front End Developer"
@@ -45,11 +50,13 @@
         />
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/about.html" title="About page">About</a>
+          </li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -62,22 +69,72 @@
               Frontend Developer, based in Annandale, Virginia
             </h2>
             <p class="mb-4">
-              For anyone who wants to start learning code, this workshop is
-              veery interesting. You wilwl be challenged with different
-              exercises, and everything is well expalined, homework and
-              deadlines are good for keeping focus.
+              For anyone who wants to start learning code, this workshop is very
+              interesting. You will be challenged with different exercises, and
+              everything is well explained, homework and deadlines are good to
+              help keep you focused.
             </p>
-            <a href="" class="btn btn-primary">See my projects</a>
+            <a href="/work.html" class="btn btn-primary">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img
             src="images/headshot.jpeg"
             alt="Helen Macqueen headshot"
-            class="img-fluid headshot"
+            class="img-fluid headshot mt-5"
           />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-primary mt-3"
+            title="Contact Helen Macqueen"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:hmacqueen19@gmail.com" class="email-link"
+          >hmacqueen19@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.instagram.com/hmacqueen/"
+          target="_blank"
+          title="Helen Macqueen Instagram profile"
+          ><i class="fa-brands fa-instagram"></i></a
+        ><a
+          href="https://github.com/hmacqueen19"
+          target="_blank"
+          title="Helen Macqueen Github profile"
+          ><i class="fa-brands fa-github"></i></a
+        ><a
+          href="https://www.linkedin.com/in/helen-macqueen-27694481/"
+          target="_blank"
+          title="Helen Macqueen LinkedIn profile"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Helen Macqueen, and it is
+        <a
+          href="https://github.com/hmacqueen19/Helen-Macqueen-Portfolio"
+          title="Github repository for this project"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
