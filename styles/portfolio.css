@@ -165,9 +165,6 @@ footer .contact-box p {
     font-size: 45px !important;
     line-height: 2;
   }
-  h4 {
-    font-size: 26px;
-  }
 
   .project-titles {
     font-size: 45px;
@@ -178,10 +175,5 @@ footer .contact-box p {
   .content {
     text-align: center;
     padding: 0;
-  }
-  footer .contact-box {
-    background-color: var(--secondary-color);
-    padding: 30px;
-    border-radius: 10px;
   }
 }
